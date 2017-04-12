@@ -157,7 +157,7 @@ class List extends Component {
     else if (this.props.fontSize) {
       style = {
         fontSize: this.props.fontSize,
-        lineHeight: `${fontSize + 2}px`
+        lineHeight: `${this.props.fontSize + 2}px`
       };
     }
 
